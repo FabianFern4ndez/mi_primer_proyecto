@@ -52,3 +52,7 @@ routers: para las direcciones del router
 schemas: para controlar las entradas y las salidas de la api
 Ademas cree algunos archivos .py que me indico el video, y aprendi que el init es para que esa carpeta sea un modulo
 
+Estaba escribiendo mi aplicacion y pues no ejecutaba porque no estaba seleccionado el interprete correcto
+se supone que al darle ctrl shitft p te debe salir en venv, pero a mi no me salia,
+asi que lo que hice fue seleccionar un interprete y puse el que estaba en la carpeta de scripts del .venv, espero funcione
+
