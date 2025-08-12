@@ -12,3 +12,16 @@ git remote  remove origin, y luego volverlo a conectar
 git add .
 git commit -m "descripcion"
 git push origin rama
+
+Quise hacer solo git commit sin el -m y me metio en vim, para salir es esc :wq enter
+
+6. cree mi rama de desarrollo con git checkout -b dev
+Bueno esto no lo he hecho pero segun deepseek, esto es lo que sigue
+para cambiar de rama seria git checkout nombrerama
+
+y para merge en main seria
+git checkout main #cambiarte a la rama main
+git merge dev
+git push origin main
+
+luego para eliminar la rama seria git checkout -d nombrerama
